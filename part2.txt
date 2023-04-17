@@ -1,4 +1,4 @@
-Question 1 passcode: greenEggsAndHam
+Passcode for question 1: greenEggsAndHam
 Question 2 passcode: iHateCplusplus
 Question 3 passcode: HTMLRocks
 Question 4 passcode: JavaScriptRules

@@ -74,20 +74,23 @@
         <input type="text" id="fname" name="fname"><br>
         
         <textarea>Comments...</textarea>
+        
         <label>Choose your Major from the list:</label>
-        <input>
-        <datalist>
-        <option value="Math-CS">
-        <option value="CS">
+        <input list="major" name="major" id="major">
+        <datalist id = "major">
+          <option value="Math-CS">
+          <option value="CS">
         </datalist>
         
         <select>
-          <option value="first year">Volvo</option>
-          <option value="second year">Saab</option>
-          <option value="third year">Opel</option>
-          <option value="fourth year">Opel</option>
+          <option value="first year">first year</option>
+          <option value="second year">second year</option>
+          <option value="third year">third year</option>
+          <option value="fourth year">fourth year</option>
         </select>
+        
         <input type="submit" value="Submit">
+        
       </fieldset>
     </form>
       

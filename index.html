@@ -1,48 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Meeting Minuites for CSE Intro Meet</title>
+    <title>Meeting Minutes for CSE Intro Meet</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="indexstyle.css">
     <meta name="description" content="Meeting Minuites">
     <meta name="keywords" content="HTML">
     <meta name="author" content="Aadit Agarwal">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="https://user-images.githubusercontent.com/97692709/232338752-0cba512a-7e25-484d-b77c-e673064899d9.jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        margin: 0;
+        padding: 0.2em;
+      }
+    </style>
   </head>
   <body>
     <header>
 
-      <div>
-        <h1>Meeting Minuites</h1>
+      <div class="longborder">
+        <h1>Meeting Minutes</h1>
         <h2>Kickoff Meeting</h2>
         <h3><span style="color:blue">4/16/2023</span></h3>
       </div>
 
     </header>
     <main>
+      <div class = "flex">
       <section>
-      <b>Attendance List</b>
-      <ul>
-        <li>Aadit Agarwal</li>
-        <li>Alexis Chao</li>
-        <li>Anvi Mittal</li>
-        <li>Justin Ubamadu</li>
-        <li>Lejing Lu</li>
-        <li>Noah Jaurigue</li>
-        <li>Simone</li>
-        <li>Vuong Bui</li>
-        <li>Yue Yin</li>
-      </ul>
+        <div class = "shortborder" id = "one">
+        <b>Attendance List</b>
+        <ul>
+            <li>Aadit Agarwal</li>
+            <li>Alexis Chao</li>
+            <li>Anvi Mittal</li>
+            <li>Justin Ubamadu</li>
+            <li>Lejing Lu</li>
+            <li>Noah Jaurigue</li>
+            <li>Simone</li>
+            <li>Vuong Bui</li>
+            <li>Yue Yin</li>
+        </ul>
+        </div>
       </section>
-      <section>
+      <div class = "block" id = "two">
       <b>Meeting Agenda</b>
       <p>During the meeting, there are three main topics to be discussed. <br>The first topic is <i>icebreakers</i>, which will allow everyone to get to know each other better. Each person will introduce themselves and share a fun fact, as well as their motivation for joining the group. <br>The second topic is future meeting times. The group will discuss and agree on a regular meeting schedule that works for everyone, as well as set a tentative date and time for the next meeting.</p>
-      </section>
-      <section>
+      </div>
+      <div class = "block">
       <b>Unfinshed Business</b>
       <p><strong>None</strong></p>
-      </section>
-      <section>
+      </div>
       <b>New Business</b>
       <ol>
         <li>Team Name</li>
@@ -52,10 +64,12 @@
       </ol>
       </section>
       <hr>
-      <section>
+      </div>
+      <div class = "grid">
+      <div class = "container">
         <b>Other Items</b>
         <p>Image:</p>
-        <img src="https://user-images.githubusercontent.com/97692709/232341120-b0c222c7-be94-4287-b73c-537760e322dd.png" alt="Assigment Details"><br>
+        <img src="https://user-images.githubusercontent.com/97692709/232341120-b0c222c7-be94-4287-b73c-537760e322dd.png" alt="Assigment Details" class="img"><br>
         
         <p>Audio:</p>
         <audio controls>
@@ -67,7 +81,8 @@
           <source src="video.mp4" type="video/mp4"><br>
         </video>
         
-      </section>
+      </div>
+      </div>
     </main>
         
     <details>

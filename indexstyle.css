@@ -93,6 +93,33 @@ header {
     text-align: center;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+  
+.item {
+    background-color: #eee;
+    padding: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+  
+.item {
+    width: 30%;
+    margin-bottom: 20px;
+    background-color: #eee;
+    padding: 20px;
+}
+  
+
 /* Navigation */
 
 nav {

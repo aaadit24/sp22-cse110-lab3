@@ -32,6 +32,13 @@ body {
     border-radius: 10px;
 }
 
+#two {
+    position: static;
+}
+#one {
+    position: relative;
+}
+
 .block {
     display: block;
 }

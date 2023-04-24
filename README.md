@@ -1,3 +1,3 @@
-# Lab 2 - Starter
+# Lab 3 - Starter
 
-https://aaadit24.github.io/Lab2_Starter/index.html?fname=&major=&today=
+https://aaadit24.github.io/sp22-cse110-lab3/

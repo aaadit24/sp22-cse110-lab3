@@ -17,6 +17,66 @@
         margin: 0;
         padding: 0.2em;
       }
+      .my-class {
+      background-color: yellow;
+      color: blue;
+      }
+        
+      /* ID Selector */
+      #my-id {
+      font-weight: bold;
+      }
+    
+      /* Universal Selector */
+      * {
+      margin: 0;
+      padding: 0;
+      }
+    
+      /* Element Selector */
+      h1 {
+      font-size: 36px;
+     }
+    
+      /* Attribute Selector */
+      a[target="_blank"] {
+      color: red;
+      }
+    
+      /* Pseudo-class Selector */
+      p:hover {
+      background-color: pink;
+      }
+    
+      /* Selector List */
+      h2, p {
+      border: 1px solid black;
+      }
+    
+      /* Descendant Combinator */
+      div p {
+      font-style: italic;
+      }
+    
+      /* Child Combinator */
+      ul > li {
+      list-style-type: square;
+      }
+    
+      /* General sibling combinator */
+      h2 ~ p {
+      text-decoration: underline;
+     }
+    
+      /* Adjacent sibling combinator */
+      h1 + p {
+      font-style: italic;
+      } 
+    
+      /* Combining Two Selectors */
+      p.my-class {
+      font-weight: bold;
+      }
     </style>
   </head>
   <body>
@@ -87,7 +147,7 @@
         
     <details>
       <summary>Summary</summary>
-      <p>Icebreaks, Future meetimes, team bonding</p>
+      <p class="my-class">Icebreaks, Future meetimes, team bonding</p>
     </details>
      
     <form>

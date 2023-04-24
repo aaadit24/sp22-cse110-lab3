@@ -100,9 +100,9 @@ body {
     margin-bottom: 10px;
   }
   
-  textarea {
+  /* textarea {
     height: 100px;
-  }
+  } */
   
   input[type="checkbox"] {
     margin-right: 5px;

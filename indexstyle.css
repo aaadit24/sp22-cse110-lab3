@@ -16,7 +16,7 @@ body {
   }
   
   h1 {
-    font-size: 1.2rem;
+    font-size: 36px;
     background-color: rgb(24, 28, 85);
     margin: 0;
     text-align: center;
@@ -79,7 +79,7 @@ body {
   form {
     max-width: 600px;
     margin: 0 auto;
-    padding: 0.5em;
+    padding: 20px;
   }
   
   fieldset {

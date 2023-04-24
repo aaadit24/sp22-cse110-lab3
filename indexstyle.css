@@ -1,125 +1,137 @@
-/* Global styles */
+/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
-    line-height: 0;
     margin: 0;
     padding: 0;
-
-  }
-  
-  /* Header styles */
-  header {
-    background-color: #181c5c55;
-    padding: 10px;
-    text-align: center;
   }
   
   h1 {
-    font-size: 36px;
-    background-color: rgb(24, 28, 85);
     margin: 0;
-    text-align: center;
+    font-size: 36px;
   }
   
   h2 {
-    font-size: 24px;
     margin: 0;
-    text-align: center;
-    color: gray;
-    color: hsl(0, 2%, 35%)
+    font-size: 24px;
   }
   
   h3 {
-    font-size: 20px;
     margin: 0;
-    text-align: center;
+    font-size: 18px;
   }
   
-  /* Main section styles */
-  main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+  b {
+    font-weight: bold;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 0;
+    padding: 0;
   }
   
   section {
     margin-bottom: 20px;
   }
   
-  ul, ol {
-    margin: 0;
-    padding-left: 20px;
+  img {
+    max-width: 100%;
   }
   
-  li {
-    list-style: none;
+  audio,
+  video {
+    display: block;
+    margin-bottom: 20px;
   }
   
-  b {
-    font-size: 20px;
-    text-decoration: underline;
-  }
+  /* Header */
   
-  p {
-    margin: 0;
-  }
-  
-  i {
-    font-style: italic;
-  }
-  
-  hr {
-    border: none;
-    border-top: 2px solid #ccc;
-    margin: 20px 0;
-  }
-  
-  /* Form styles */
-  form {
-    max-width: 600px;
-    margin: 0 auto;
+  header {
+    background-color: #333;
+    color: #fff;
     padding: 20px;
   }
   
-  fieldset {
-    border: none;
-    padding: 0;
+  /* Navigation */
+  
+  nav {
+    background-color: #eee;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Form */
+  
+  form {
+    margin: 20px;
   }
   
   label {
     display: block;
-    margin-bottom: 5px;
-  }
-  
-  input[type="text"], textarea, select {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
     margin-bottom: 10px;
   }
   
-  /* textarea {
-    height: 100px;
-  } */
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
   
-  input[type="checkbox"] {
-    margin-right: 5px;
+  textarea {
+    height: 100px;
   }
   
   input[type="submit"] {
-    background-color: #ddd;
-    color: #333;
-    border: none;
+    background-color: #333;
+    color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
+    border: none;
     cursor: pointer;
-    font-weight: bold;
   }
   
   input[type="submit"]:hover {
-    background-color: #333;
-    color: #fff;
+    background-color: #444;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Details */
+  
+  details {
+    margin: 20px;
+  }
+  
+  /* Other */
+  
+  hr {
+    margin: 20px;
+    border: none;
+    border-top: 1px solid #ccc;
   }
   

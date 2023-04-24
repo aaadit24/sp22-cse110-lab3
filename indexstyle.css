@@ -67,6 +67,7 @@ section {
 }
 
 img {
+    min-width: 0.1;
     max-width: 50%;
 }
 

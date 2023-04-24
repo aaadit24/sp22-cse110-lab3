@@ -4,9 +4,34 @@ body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     margin: 0;
-    padding: 0;
+    padding: 0.2em;
 }
-
+/* Set margin and padding for a div element */
+.longborder {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+  
+  /* Shorter syntax for margin and padding */
+.shortborder {
+    margin: 20px auto;
+    padding: 10px 20px;
+}
+  
+  /* Set border properties for an image element */
+.img {
+    border-style: solid;
+    border-color: red;
+    border-width: 2px;
+    border-radius: 10px;
+}
+  
 h1 {
     margin: 0;
     font-size: 36px;
@@ -20,10 +45,6 @@ h2 {
 h3 {
     margin: 0;
     font-size: 18px;
-}
-
-b {
-    font-weight: bold;
 }
 
 p {
@@ -51,7 +72,6 @@ header {
     background-color: rgb(90,90,90);
     color: white;
     color: hsl(0, 50%, 90%);
-    /* padding: 20px; */
     text-align: center;
 }
 

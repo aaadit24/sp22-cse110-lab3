@@ -1,11 +1,5 @@
 /* General Styles */
 
-body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    margin: 0;
-    padding: 0.2em;
-}
 /* Set margin and padding for a div element */
 .longborder {
     margin-top: 20px;
@@ -104,6 +98,19 @@ header {
     background-color: #eee;
     padding: 20px;
 }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+  
+@media screen and (max-width: 480px) {
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+}
+  
 
 .flex {
     display: flex;
